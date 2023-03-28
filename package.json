@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "tall": "^8.0.0"
+  }
+}
