@@ -5,3 +5,4 @@ youtube_dl
 yt_dlp
 pynacl
 flask
+dotenv
