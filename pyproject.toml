@@ -2,7 +2,7 @@
 name = "Adorable King"
 version = "0.1.0"
 description = ""
-authors = ["Replit user <<>>"]
+authors = ["Qaveru"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
