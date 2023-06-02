@@ -191,7 +191,7 @@ async def on_message_delete(messages):
       if data:
         data = int(''.join(map(str, data)))
         logchannel = await bot.fetch_channel(data)
-        embed = discord.Embed(description=f"**Удалено сообщение, отравленное** {messages.author.mention} **в канале** <#{messages.channel.id}>", timestamp=datetime.datetime.now(), color=0xff5454)
+        embed = discord.Embed(description=f"**Удалено сообщение, отправленное** {messages.author.mention} **в канале** <#{messages.channel.id}>", timestamp=datetime.datetime.now(), color=0xff5454)
         embed.add_field(name="**Удалённое сообщение**", value=f"{messages.content}", inline=False)
         embed.set_author(name=messages.author, icon_url=messages.author.avatar)
         embed.set_footer(text=f"ID Пользователя: {messages.author.id} | ID Сообщения: {messages.id}")
