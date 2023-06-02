@@ -1,8 +1,8 @@
 {
-  "permissions": "xxx",
-  "application_id": "xxx",
+  "permissions": "1234",
+  "application_id": "1234",
   "sync_commands_globally": true,
   "owners": [
-    xxx   
+    1234   
   ]
 }
